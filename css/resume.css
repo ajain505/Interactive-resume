@@ -1,0 +1,108 @@
+/* top border */
+.bd{
+    border-top: 4px solid rgb(105, 106, 107);
+}
+/* left side */
+.left_side{
+    text-align: center;
+    padding: 8rem 2rem;
+    background-color:#FFA658;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 24%;
+    border-right: 4px solid rgb(105, 106, 107);
+}
+.prf_img{
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    width: 70%;
+}
+.left_list{
+    margin-top: 3rem;
+    padding-left: 0%;
+}
+.left_list li{
+    list-style-type: none;
+    margin-bottom: 0.7rem;
+    font-size: 1.9rem;
+    font-weight: 600;
+}
+.links{
+    text-decoration: none;
+    color: #ffffff !important;
+    font-size: 2.2rem !important;
+    font-weight: 600;
+}
+.links:hover{
+    color: #3c3c3ad0 !important;
+}
+
+/* right side */
+.right_side{
+    width: 100%;
+    height: 2080px;
+}
+.hero{
+    margin-top: 11rem;
+}
+.hero_name{
+ color: #7A7A7A;
+}
+.subheading{
+    text-transform: uppercase;
+    font-size: 1.41rem;
+}
+.subhead_mail a{
+    color: #FFA658;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+.hero_icon{
+ font-size: 2.9rem;
+ padding-right: 0.6rem;
+ color: #3a3838;
+}
+/* experience */
+.topic{
+    margin-top: 5rem;
+}
+/* skill */
+.skill_icon{
+    font-size: 5rem;
+}
+/* Interest */
+.interest_icon{
+    font-size: 3rem;
+}
+.interest_title{
+    font-size: 1rem;
+}
+/* contact me */
+.input_feild{
+    background-color: rgb(223, 219, 219);
+    border-radius: 0.5rem;
+}
+.instyle {
+    border: 1px solid #eee;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    color: rgb(65, 65, 65);
+    outline: none;
+    padding: 0.8rem;
+}
+.instyle:focus {
+    border: 2px solid rgb(180, 180, 180) !important;
+}
+.btn{
+    padding: 1rem 2rem !important;
+    border-radius: 0.5rem;
+    background-color: #FFA658;
+    color: #ffffff !important;
+    font-size: 1.5rem;
+    font-weight: 600 !important;
+    transition: all 0.2s ease;
+}
